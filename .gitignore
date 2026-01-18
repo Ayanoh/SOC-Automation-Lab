@@ -1,0 +1,128 @@
+# SOC Automation Lab - Git Ignore
+
+# Sensitive Files - NEVER COMMIT
+*.key
+*.pem
+*.crt
+*_key
+*_secret
+secrets/
+credentials/
+api-keys.txt
+.env
+.env.local
+
+# API Keys and Tokens
+**/slack-webhook.txt
+**/cortex-api-key.txt
+**/thehive-api-key.txt
+**/wazuh-token.txt
+**/*_token.txt
+**/*_apikey.txt
+
+# Passwords and Credentials
+passwords.txt
+creds.txt
+auth.txt
+**/*password*
+**/*credential*
+
+# Personal Information
+personal-notes.md
+private/
+
+# VM Files
+*.vdi
+*.vmdk
+*.vbox
+*.vbox-prev
+*.log
+
+# Logs
+logs/
+*.log
+**/*.log
+ossec.log
+thehive.log
+cortex.log
+
+# Backup Files
+*.bak
+*.backup
+*.old
+*~
+*.swp
+*.swo
+
+# OS Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE Files
+.vscode/
+.idea/
+*.sublime-*
+.vs/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+venv/
+env/
+.Python
+
+# Node.js / n8n
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Temporary Files
+tmp/
+temp/
+*.tmp
+
+# Database Files
+*.db
+*.sqlite
+*.sqlite3
+
+# Archives
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+
+# Screenshots with Sensitive Data
+**/sensitive-*.png
+**/sensitive-*.jpg
+**/private-*.png
+
+# Config Files with Secrets
+# (Keep template configs, ignore those with actual secrets)
+configs/**/*-production.conf
+configs/**/*-live.conf
+configs/**/*-real.conf
+
+# Elasticsearch Data
+data/
+es_data/
+elasticsearch/
+
+# Certificate Files
+*.p12
+*.pfx
+ssl/
+certs/
+
+# SSH Keys
+id_rsa
+id_ed25519
+*.ppk
+
+# Notes
+notes.txt
+TODO-private.md
