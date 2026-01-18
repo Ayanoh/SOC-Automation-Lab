@@ -448,20 +448,4 @@ See [ROADMAP.md](ROADMAP.md) for detailed implementation plans for remaining fea
 
 ---
 
-## 💬 Interview Talking Points
-
-**How to present this project honestly and impressively**:
-
-> *"I built a SOC automation lab that demonstrates the complete threat detection and response pipeline. The core workflow—Wazuh detection, n8n orchestration, TheHive case management, and Cortex threat intelligence enrichment—is fully functional.*
->
-> *The project includes both endpoint and network monitoring capabilities. While I completed the endpoint detection pipeline with Wazuh, the Security Onion network monitoring integration is documented but not yet automated due to time constraints.*
->
-> *One of my biggest learning experiences was debugging a 4-hour Docker Snap confinement issue with Cortex analyzers. The root cause was that Snap's security boundaries prevented container access to /tmp. I resolved it by reconfiguring the job directory and Docker socket permissions.*
->
-> *I intentionally documented the complete architecture, including features I haven't implemented yet, to provide a realistic blueprint for anyone wanting to build a similar lab. This approach shows both my technical vision and my ability to prioritize and deliver an MVP."*
-
-**This is honest, impressive, and shows maturity** ✅
-
----
-
 **For more details on specific components, see the respective documentation files.**

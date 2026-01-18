@@ -275,7 +275,7 @@ See [ROADMAP.md](ROADMAP.md) for detailed implementation plans.
 - **Configuration Files**: 12+
 - **Lines of Code**: ~500 (Python, Bash, JSON)
 - **Documentation Pages**: 15+
-- **Major Issues Debugged**: 8
+- **Major Issues Debugged**: 17+
 - **Screenshot Evidence**: 10+
 
 ---
