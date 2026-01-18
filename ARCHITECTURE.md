@@ -6,7 +6,7 @@ This document describes the **complete architecture** as envisioned, including b
 
 ## 📐 Complete System Architecture
 
-![Complete SOC Architecture](images/labwazuh.png)
+![Complete SOC Architecture](images/architecture-complete.png)
 
 The architecture implements a comprehensive Security Operations Center with:
 - **Detection Layer**: Endpoint (Wazuh) + Network (Security Onion)

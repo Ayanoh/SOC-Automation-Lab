@@ -441,7 +441,7 @@ See [ROADMAP.md](ROADMAP.md) for detailed implementation plans for remaining fea
 | **Successful Integrations** | 5/5 |
 | **Configuration Files** | 12+ |
 | **Lines of Code** | ~500 |
-| **Major Issues Resolved** | 8 |
+| **Major Issues Resolved** | 17+ |
 | **Documentation Pages** | 15+ |
 | **Development Time** | ~3 months (part-time) |
 | **Time on Docker Issue** | 4 hours |
