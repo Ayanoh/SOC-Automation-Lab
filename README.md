@@ -125,17 +125,6 @@ The complete architecture includes analyst decision prompts, conditional workflo
 | [TROUBLESHOOTING.md](TROUBLESHOOTING.md) | Common issues and solutions |
 | [ROADMAP.md](ROADMAP.md) | Future implementation plans |
 
-**Component Guides**:
-- [Infrastructure Setup](docs/01-infrastructure.md)
-- [Wazuh Configuration](docs/02-wazuh-setup.md)
-- [TheHive & Cortex Setup](docs/03-thehive-cortex.md)
-- [n8n Workflows](docs/04-n8n-workflows.md)
-- [Security Onion Integration](docs/05-security-onion.md)
-- [Detection Rules](docs/06-detection-rules.md)
-- [Active Response Configuration](docs/07-active-response.md)
-- [Decision Tree Implementation](docs/08-decision-tree.md)
-- [Attack Scenarios](docs/09-use-cases.md)
-
 ---
 
 ## 📸 Screenshots
